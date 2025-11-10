@@ -16,7 +16,6 @@
 Python              3.9 or greater  
 p4python            2023.2.2581979 or greater
 requests            2.32.2   
-boto3               1.34.110
 
 
 ## Environment File configuration
