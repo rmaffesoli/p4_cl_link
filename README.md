@@ -9,6 +9,7 @@
 * Ryan Maffesoli
 
 ## Installation
+[Descript Video Explanation](https://share.descript.com/view/umz1rrArmF7)
 
 * Currently, the running triggers via source doesn't require any additional installation beyond cloning the repository, having Python 3.9 or later, and installing the requirements
 
