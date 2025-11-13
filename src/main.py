@@ -46,24 +46,6 @@ def main(changelist):
             attach_weblink(depot_file, weblink)
 
 
-    # file_process_dict: dict = claude_api_trigger.gather_file_process_list(changelist)
-
-    # logger.info(
-    #     f"Processing changelist {changelist}. {len(file_process_dict['file_list'])} files to process."
-    # )
-
-    # ai_results = tagging_ai.process_changelist(file_process_dict)
-
-    # for result in ai_results:
-    #     attach_metadata(
-    #         result["depot_path"], "image description", result["description"]
-    #     )
-    #     attach_additional_tags(result["depot_path"], result["tags"])
-
-    # logger.info(ai_results)
-    # return ai_results
-
-
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
     parser.add_argument("changelist")
