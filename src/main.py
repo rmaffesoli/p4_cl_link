@@ -1,3 +1,4 @@
+#!/usr/bin/env python
 import logging
 import argparse
 import re
@@ -5,7 +6,7 @@ import os
 from P4 import P4, P4Exception
 from p4_cl_link import environment
 
-from dam_api.write_weblink import gather_webhook_configs, attach_weblink
+from dam_api.write_weblink import attach_weblink
 
 P4_PORT = os.environ.get('P4PORT')
 P4_USER = os.environ.get('P4USER')
